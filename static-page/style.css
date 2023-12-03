@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+     margin: 0;
+     background-color: #1A1B21;
+     font-family: 'Inter', sans-serif;
+}
+
+/* INFO SECTION */
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.info--photo{
+    width: 317px;
+}
+
+.info > h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.info > h2{
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: regular;
+}
+
+.info > h3{
+    color: #F5F5F5;
+    font-size: 10.24px;
+}
+
+.info > button{
+    width: 247px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.info > img:nth-child(2){
+    border: 2px solid pink;  
+}
+
+
+/* ABOUT SECTION */
+
+.about{
+    margin: 20px;
+    width: 247px;
+}
+.about > h1{
+    color: #F5F5F5;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about > p{
+    color:#DCDCDC;
+    font-weight: regular;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+/* INTERESTS SECTION */
+
+.interests{
+    margin: 20px;
+    width: 247px;
+}
+.interests > h1{
+    color: #F5F5F5;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.interests > p{
+    color:#DCDCDC;
+    font-weight: regular;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    margin: 5px;
+    height: 27px;
+}

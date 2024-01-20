@@ -673,6 +673,54 @@ exports.default = [{
     },
     location: "Norway",
     openSpots: 3
+}, {
+    id: 4,
+    title: "Candle Crafting class",
+    description: "Discover the art and warmth of candle crafting in our immersive and hands-on candle making class",
+    price: 60,
+    coverImg: "candle.png",
+    stats: {
+        rating: 4.7,
+        reviewCount: 15
+    },
+    location: "London",
+    openSpots: 0
+}, {
+    id: 5,
+    title: "Climbing section",
+    description: "Ascend to new heights with our indoor rock climbing classes! Conquer vertical challenges, build strength, and experience the thrill of scaling custom-designed climbing walls. ",
+    price: 15,
+    coverImg: "climbing.jpg",
+    stats: {
+        rating: 4.2,
+        reviewCount: 3
+    },
+    location: "Dublin",
+    openSpots: 10
+}, {
+    id: 6,
+    title: "Rug craft",
+    description: "Let your creativity flow with our rug craft class. (All material is provided) ",
+    price: 65,
+    coverImg: "rug.jpg",
+    stats: {
+        rating: 5,
+        reviewCount: 10
+    },
+    location: "London",
+    openSpots: 8
+}, {
+    id: 7,
+    title: "Wine and paint",
+    description: " Join us for a night of painting and savorying wine (All material is provided) ",
+    price: 30,
+    coverImg: "wine.jpg",
+    stats: {
+        rating: 4,
+        reviewCount: 12
+    },
+    location: "London",
+    openSpots: 0
 }];
 
 /***/ }),
